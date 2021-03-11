@@ -1,6 +1,7 @@
-@extends('layouts.admin')
+@extends('layouts.master')
+@section('title','Create Role')
 @section('content')
-
+<div class="content-wrapper">
 <div class="card">
     <div class="card-header">
         {{ trans('global.create') }} {{ trans('cruds.role.title_singular') }}
@@ -46,5 +47,6 @@
 
 
     </div>
+</div>
 </div>
 @endsection
